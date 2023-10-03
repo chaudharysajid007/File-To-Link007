@@ -25,13 +25,13 @@ async def start(b, m):
     usr_cmd = m.text.split("_")[-1]
     if usr_cmd == "/start":
         await m.reply_photo(
-            photo="https://graph.org/file/8e67ae4a3803f69a28218.jpg",
+            photo="https://telegra.ph/file/ecc42778407d070fdef61.jpg",
             caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛsɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀᴢ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/beta_botz"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/jeol_tg"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@itzjeol")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/updates007sflix"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/sajidflix_bot")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/chaudharysajid007"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/chaudharysajid007")],
+                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://www.youtube.com/@Chem0phillic")]
                 ]
             ),
             
@@ -61,7 +61,7 @@ async def start(b, m):
                                      Var.PORT,
                                      get_msg.id)
 
-        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>❖ YouTube.com/@itzjeol</b>**"
+        msg_text = "**ᴛᴏᴜʀ ʟɪɴᴋ ɪs ɢᴇɴᴇʀᴀᴛᴇᴅ...⚡\n\n📧 ғɪʟᴇ ɴᴀᴍᴇ :-\n{}\n {}\n\n💌 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :- {}\n\n♻️ ᴛʜɪs ʟɪɴᴋ ɪs ᴘᴇʀᴍᴀɴᴇɴᴛ ᴀɴᴅ ᴡᴏɴ'ᴛ ɢᴇᴛ ᴇxᴘɪʀᴇᴅ ♻️\n\n<b>❖ YouTube.com/@Chem0phillic</b>**"
         await m.reply_text(            
             text=msg_text.format(file_name, file_size, stream_link),
             
@@ -85,9 +85,9 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/beta_botz"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/jeol_tg"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@itzjeol")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/updates007sflix"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/sajidflix_bot")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/chaudharysajid007"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/chaudharysajid007")],
+                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://www.youtube.com/@Chem0phillic")]
                 ]
             ),
             
@@ -102,27 +102,27 @@ async def about_handler(bot, message):
             f"#NEW_USER: \n\nNew User [{message.from_user.first_name}](tg://user?id={message.from_user.id}) Started !!"
         )
     await message.reply_photo(
-            photo="https://graph.org/file/8e67ae4a3803f69a28218.jpg",
+            photo="https://telegra.ph/file/ecc42778407d070fdef61.jpg",
             caption="""<b>sᴏᴍᴇ ʜɪᴅᴅᴇɴ ᴅᴇᴛᴀɪʟs😜</b>
 
 <b>╭━━━━━━━〔ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
 ┣⪼<b>ʙᴏᴛ ɴᴀᴍᴇ : ғɪʟᴇ ᴛᴏ ʟɪɴᴋ
-┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/beta_botz'>jeol botz</a></b>
-┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/beta_support'>jeol support</a></b>
+┣⪼<b>ᴜᴘᴅᴀᴛᴇᴢ : <a href='https://t.me/updates007sflix'>sajid</a></b>
+┣⪼<b>sᴜᴘᴘᴏʀᴛ : <a href='https://t.me/sajidflix_bot'>sajid support</a></b>
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://youtube.com/@itzjeol'>Jeol botz</a></b>
+┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://www.youtube.com/@Chem0phillic'>sajid botz</a></b>
 ┃
 <b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/beta_botz"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/beta_support")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/jeol_tg"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/Adarsh-Goel")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@itzjeol")]
+                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://t.me/updates007sflix"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/sajidflix_bot")],
+                    [InlineKeyboardButton("OWNER", url="https://t.me/chaudharysajid007"), InlineKeyboardButton("💠 DEVELOPER", url="https://github.com/chaudharysajid007")],
+                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://www.youtube.com/@Chem0phillic")]
                 ]
             ),
             
